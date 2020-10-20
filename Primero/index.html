@@ -4,14 +4,18 @@
 <html lang="es">
 <!-- etiqueta head, configuración de nuestra pagina web -->    
     <head>
+        <!-- Conjunto de caracteres -->
         <meta charset="UTF-8">
+        <!-- Título -->
         <title>Primera web</title>
     </head>
 <!-- etiqueta body, contenido visible de la web -->    
     <body>
+        <!-- Salto de línea -->
         <pre> 
         Esta es
         la primera frase
+        <!-- Caracteres especiales -->
         ñ &ntilde; &copy; &reg; &yen;
         </pre>
         <!-- Párrafos -->
@@ -23,6 +27,7 @@
         </p>
         <!-- Encabezados -->
         <h1>1</h1>
+        <!-- Salto de línea encabezados -->
         <br/> 
         <h2>2</h2>
         <h3>3</h3> 
@@ -30,6 +35,47 @@
         <h5>5</h5>
         <h6>6</h6>
         
-        <!-- Linea Horizontal -->
+        <!-- Linea Horizontal y estilo -->
+        <hr style="color: magenta;"/>
+
+        <!-- Párrafo avanzado y estilo (igual que párrafo pero con margen) -->
+        <blockquote style="background-color: magenta;">
+        <!-- Etiqueta span aplica estilo al texto-->
+            <span style="color: mediumblue;">Tema 1</span>
+            <p>
+                <!-- Etiqueta del (tacha el texto)-->
+                <!-- Etiqueta ins (subraya el texto)-->
+                <del>Este es el tema 1 del libro</del> <ins>hola</ins>
+            </p>
+        </blockquote>
+        <!-- Listas (no ordenadas, no enumeradas) y style (cambiar simbolo de lista) -->
+        <ul style="list-style-type: circle;">
+            Lista de Objetos
+            <!-- Elementos de la lista -->
+            <li>Mesa</li>
+            <li>Silla</li>
+            <li>Ordenador</li>
+        </ul>
+        <!-- Listas (ordenadas, enumeradas)-->
+        <ol>
+            Lista de Ordenadores
+            <li>Ordenador profesor</li>
+            <!-- Lista no enumerada dentro de lista enumerada-->
+                <ul>
+                    Especificaciones
+                    <li>Pantalla plana</li>
+                    <li>Procesador i5</li>
+                </ul>
+            <li>Ordenador alumno</li>
+        </ol>
+        <!-- Listas de definición (concepto - definición)-->
+        <dl>
+        <!-- Concepto -->  
+            <dt>Ordenador</dt>
+        <!-- Definición -->
+            <dd>Objeto que hace de todo</dd>
+            <dt>Pantalla</dt>
+            <dd>Objeto quee muestra de todo</dd>
+        </dl>
     </body>
 </html>

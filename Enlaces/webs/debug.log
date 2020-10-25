@@ -1,7 +1,0 @@
-[1022/124122.812:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
-[1022/191524.888:ERROR:process_reader_win.cc(127)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
-[1022/191524.888:ERROR:process_reader_win.cc(127)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
-[1022/191524.889:ERROR:exception_snapshot_win.cc(100)] thread ID 9468 not found in process
-[1022/191524.889:ERROR:exception_snapshot_win.cc(100)] thread ID 10372 not found in process
-[1022/191528.075:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\csanm\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\26ee6272-4b90-42b3-830a-4dd448c09d85: El sistema no puede encontrar la ruta especificada. (0x3)
-[1022/191528.078:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\csanm\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\24367286-541c-46fd-8a7a-290309344871: El sistema no puede encontrar la ruta especificada. (0x3)

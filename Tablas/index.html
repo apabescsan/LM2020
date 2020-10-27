@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <!-- Tablas etiqueta table-->
+    <!-- border para estilo (establecer tamaño, color) del borde (style en html 5)-->
+    <!-- background para color de la tabla entera-->
+    <table style="border: 2px solid red; background: cornflowerblue;">
+        <!-- etiqueta tr filas-->
+        <!-- etiqueta caption para titulo de la tabla-->
+        <!-- etiqueta thead para cabecera de la tabala-->
+        <caption>Horario escolar</caption>
+        <thead>
+            <tr>
+                <!--columnas etiqueta td-->
+                <!-- tambien border para estilo de columna-->
+                <!-- border collapse-->
+                <!-- th para negrita en vez de td-->
+                <td style="border: 2px dotted blue;">Lunes</td>
+                <td style="border: 2px dotted rgb(151, 224, 4);">Martes</td>
+                <td>Miércoles</td>
+                <td>Jueves</td>
+            </tr>
+        
+        </thead>
+        <!-- etiqueta tbody para el cuerpo (resto de filas)-->
+        <tbody>
+            <tr>
+                <!-- colspan cuantas columnas va a ocupar-->
+                <!-- rowspan igual pero filas-->
+                <!-- padding separacion del texto con el borde-->
+                <td colspan="2" style="text-align: center;">1</td>
+                <th style="padding: 30 px;">2</th>
+                <th>3</th>
+                <td>4</td>
+            </tr> 
+        </tbody>
+        <!-- etiqueta tfoot para pie de pagina-->
+        <tfoot>
+            <tr>
+                <td>5</td>
+                <td>7</td>
+                <td>9</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>

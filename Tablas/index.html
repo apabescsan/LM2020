@@ -9,6 +9,7 @@
     <!-- Tablas etiqueta table-->
     <!-- border para estilo (establecer tamaño, color) del borde (style en html 5)-->
     <!-- background para color de la tabla entera-->
+    <!--border-collapse collapse para line entre tr y td (th en negrita en vez de td)-->
     <table style="border: 2px solid red; background: cornflowerblue;">
         <!-- etiqueta tr filas-->
         <!-- etiqueta caption para titulo de la tabla-->
@@ -20,6 +21,7 @@
                 <!-- tambien border para estilo de columna-->
                 <!-- border collapse-->
                 <!-- th para negrita en vez de td-->
+                <!-- atributo rules=groups para linia entre grupos thead tbody y tfoot-->
                 <td style="border: 2px dotted blue;">Lunes</td>
                 <td style="border: 2px dotted rgb(151, 224, 4);">Martes</td>
                 <td>Miércoles</td>
@@ -30,9 +32,11 @@
         <!-- etiqueta tbody para el cuerpo (resto de filas)-->
         <tbody>
             <tr>
-                <!-- colspan cuantas columnas va a ocupar-->
-                <!-- rowspan igual pero filas-->
+                <!--caption nombre de la tabla-->
+                <!-- colspan cuantas columnas va a ocupar las casillas-->
+                <!-- rowspan igual pero filas (y centrar)-->
                 <!-- padding separacion del texto con el borde-->
+                <!-- text-aling-center para centrar -->
                 <td colspan="2" style="text-align: center;">1</td>
                 <th style="padding: 30 px;">2</th>
                 <th>3</th>

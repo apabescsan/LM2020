@@ -7,7 +7,12 @@
 </head>
 <body>
     <div style="width: 200px; margin: 0px auto;">
-        <h3>FORMULARIO</h3>
+        <fieldset>
+            <h3>Formulario</h3> <!--o legend para poner el texto entre el borde-->
+
+            <!--input search o input tel otras
+                maxlength maximo de caracteres
+            pattern es patron para limitar caracteres p.ej [A-Z]{6}[0-9]4 -->
     <form action="registro.php" method="GET">
         <table>
             <tr>
@@ -35,12 +40,54 @@
                     <td><label for="Date">Date of last job</label></td>
                     <td><input type="text" name="Date" id="Date" placeholder="Type here..."></td>
                 </tr>
+                <tr>
+                    <td><label for="aficiones">Aficiones</label></td>
+                    <td>
+                    <input type="checkbox" name="deporte" id="deporte" value="D"><span>Deporte</span>
+                    <input type="checkbox" name="cine" id="cine" value="C"><span>Cine</span>
+            
+                </td>
+                </tr>
+            
+                <tr>
+                    <td><label for="provincias">Provincias</label></td>
+                    <td><select name="provincias" id="provincias"> <!--optiongroup label=prov1 (p.ej) para separar por grupos-->
+                        <option value="40">Seleccione provincia</option><option value="41">Sevilla</option><option value="39">CÁDIZ</option><option value="37">HUELVA</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="fichero">Imagen</label></td>
+                    <td><input type="file" name="fichero" id="fichero"></td>
+                </tr>
+                <tr>
+                    <td><label for="mensaje">Mensaje</label></td>
+                    <td><textarea name="mensaje" id="mensaje" cols="50" rows="10" placeholder="Pues..."></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <!--man y min para limitar numero-->
+                    <td><input type="number" name="edad" type="edad"> ></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="web">Web</label></td>
+                    <td><input type="url" name="web" id="web"></td>
+                </tr>
+                <tr>
+                    <td><label for="fecha">Fecha</label></td>
+                    <!--date, datetime o datetime-local-->
+                    <td><input type="date" name="fecha" id="fecha"></td>
+                </tr>
              <tr>
                 <td></td>
                 <td><input type="submit"></td>
             </tr>
             
         </table>
+        </fieldset>
     </form>
 </div>
     

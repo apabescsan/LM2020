@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+h1 {
+    font: bold 25px verdana, sans-serif; text-align: center; margin-right: 400px; margin-top: -90px; background: greenyellow;
+}
+
+h2 {
+    font: bold 10px verdana, sans-serif; text-align: center; margin-right: 400px; margin-top: 10px; background: greenyellow;
+}
+
+header, section, footer, aside, nav, article {
+    display: block; background: #ffbbcc;
+}
+
+body {
+    text-align: center; background: #eff8a0;
+}
+
+#container {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#head {
+    background: greenyellow;
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+}
+
+#menu {
+    background: rgb(128, 189, 214);
+    padding: 5px 15px;
+    color: rgb(24, 99, 174);
+}
+
+#menu li {
+    display: table-cell;
+    list-style: none;
+    padding: 5px;
+}
+
+#main {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#column {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: crimson;
+}
+
+#foot {
+    clear: both;
+    text-align: center;
+    border-top: 2px solid #999999;
+}
+
+article {
+    background: #ffbbcc;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+article footer {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}

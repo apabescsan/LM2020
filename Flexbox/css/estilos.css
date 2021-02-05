@@ -1,0 +1,25 @@
+.contenedor {
+    display: flex; 
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap;*/
+    /*flex-flow: row-reverse wrap;*/
+
+    /*justify-content: flex-start;*/
+    /*height: 240px;
+    background: grey;
+    justify-content: flex-start;
+    /*align-items: baseline;
+    flex-flow: row wrap;
+    align-content: flex-end;*/
+}
+.elemento {
+    width: 24%; background: linear-gradient(to right, blue, white); border: 1px solid black; color: white;
+    height: 40px; flex: 1 1 0;
+}
+
+.elemento:nth-child(4) {
+    /*order: 2;*/
+    flex-grow: 3;
+    /*flex-shrink: ;
+    flex-basis: ;*/
+}

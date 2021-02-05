@@ -1,0 +1,32 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    padding: 20px;
+    color: wheat;
+    background: black;
+    text-align: right;
+}
+section {
+    display: flex;
+}
+article {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+#articulo-1 {
+background: coral;
+}
+#articulo-2 {
+  background: red;  
+}
+#articulo-3 {
+    background: blueviolet;
+}
+
+img {
+    width: 100%;
+}

@@ -1,15 +1,16 @@
+/*estilo a todos enlaces y parrafos*/
 a,p {
     font-size: 22px;
 }
-
+/*estilo a todos los enlaces que esten dentro de un div*/
 div a {
     color: burlywood;
 }
-
+/* todas las capas cuyo id sea capa1*/
 div#capa1 {
     background: chocolate;
 }
-
+/* class letraGrande*/
 .letraGrande {
     font-size: xx-large;
 }
@@ -21,67 +22,72 @@ div#capa1 {
 div#capa1 a.encima {
     font-family: monospace;
 }
-
+/*todos los div con id capa1 y dentro los enlaces cuya clase sea encima se le aplica subclase hover(cuando pasemosel raton por encima)*/
 div#capa1 a.encima:hover {
     color: yellow;
     
 }
-
+/*link enlaces que no han sido visitados*/
 div#capa1 a.encima:link {
     color: violet;
 }
-
+/*visited enlaces que se han visitado*/
 div#capa1 a.encima:visited {
     color: black;
 }
-
+/* todos los parrafos con id miparrafo y subclase fist-line(aplicar estilo solo a la primera linea)*/
 p#miparrafo:first-line {
     font-size: 12px;
     color: brown;
     font-weight: bold;
 }
-
+/*igual pero subclse fist letter para solo la primera letra*/
 p#miparrafo:first-letter {
     color: black;
     font-size: 20px;
     text-transform: uppercase;   
 }
-
+/*ul cuyo id es capafinal al li que sea el primer hijo*/
 ul#capafinal li:first-child {
     background: blue;
 }
-
+/*igual pero el ultimo*/
 ul#capafinal li:last-child {
     background: red;
 }
-
+/*div con id capa1 y * que engloba todo lo que este dentro del div*/
+/* italic cursiva*/
 div#capa1 * {
     font-style: italic;
 }
-
+/*todos los enlaces que se encuentren dentro de una capa*/
 div > a {
     border: 2px solid black
 }
 
+/*todos los enlaces que empiezen por https*/
 a[href^="https"] {
     text-transform: lowercase;
 }
-
+/*todos los enlaces que terminen en pdf*/
 a[href$="pdf"] {
     font-size: xx-small;
 }
 
+/*capitalize o uppercase mayuscula*/
 a[href*="triana"] {
     background: bisque;
+    text-transform: capitalize;
 }
+/* todos los parrafos que vayan justo despues de un div*/
 div + p {
     border: 2px dotted blue;
 }
-
+/*enlaces cuyo atributo target sea _blank*/
 a[target=_blank] {
     font-size: 100px;
 }
-
+/*input que tenga focus*/
 input:focus {
     border: 2px solid blue;
 }
@@ -96,4 +102,8 @@ input:disabled {
 
 input:checked + span {
    border: 2px solid greenyellow;
+}
+/*estilo a todos los atributos que no sean paarafo*/
+:not(p) {
+    text-decoration: overline;
 }

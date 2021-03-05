@@ -1,25 +1,30 @@
 .contenedor {
     display: flex; 
-    /*flex-direction: column;*/
-    /*flex-wrap: wrap;*/
-    /*flex-flow: row-reverse wrap;*/
+    /*flex-direction: column;(columna)*/
+    /*flex-wrap: wrap; (en linea si es demasiado tamaño se añaden debajo*/
+    /*flex-flow: row-reverse(inverso) wrap;*/
 
     /*justify-content: flex-start;*/
     /*height: 240px;
     background: grey;
-    justify-content: flex-start;
+    (justificar elementos en el eje horizontal) justify-content: flex-start (por defecto);
     /*align-items: baseline;
     flex-flow: row wrap;
     align-content: flex-end;*/
 }
+/*linear gradient color especial*/
 .elemento {
     width: 24%; background: linear-gradient(to right, blue, white); border: 1px solid black; color: white;
     height: 40px; flex: 1 1 0;
 }
-
-.elemento:nth-child(4) {
+/*ordenar elementos por par o impar. si entre parentesis es un numero, se estila ese numero*/
+.elemento:nth-child(even) {
     /*order: 2;*/
+    /*factor de incremento de capa en relacion al resto*/
     flex-grow: 3;
+    /*igual pero disminución*/
     /*flex-shrink: ;
-    flex-basis: ;*/
+    /*tamaño inicial de los elementos teniendo en cuent ael espacio entre ellos*/
+    flex-basis: 1;
+    /*minimizar coon flex: x x x*/
 }

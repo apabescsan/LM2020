@@ -1,0 +1,10 @@
+#primera {
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+p, span, h1 {
+    font: bold;
+}
+#je {
+    display: list-item;

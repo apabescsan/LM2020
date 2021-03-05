@@ -1,0 +1,89 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+pre {
+    font: bold 40px Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+
+}
+
+h3 {
+    color: white;
+    font: normal 20px;
+    font-weight: lighter;
+    
+}
+h4 {
+    color: white;
+    font: bold 20px;
+}
+
+h2 {
+    font: bold 16px verdana, sans-serif;
+    color: blue;
+}
+
+h1 {
+    font: 15px;
+}
+h6 {
+    font: normal;
+}
+
+h7 {
+    font: bold;
+    color: blue;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+#container {
+    width: 980px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#head {
+    background: rgb(58, 58, 57);
+    padding: 60px;
+    text-align: left;
+}
+
+
+#main {
+    float: left;
+    width: 480px;
+    margin-top: 20px;
+    border: medium black;
+}
+
+#second {
+    float: right;
+    width: 480px;
+    margin-top: 20px;
+}
+
+
+article {
+    background: #ffffff;
+    padding: 20px;
+    border: black;
+    border-radius: 5px;
+}
+
+article footer {
+    font-weight: lighter;
+    text-align: left;
+    color: rgb(77, 75, 75);
+    font-size: 10px;
+}

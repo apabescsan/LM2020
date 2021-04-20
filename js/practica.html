@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    
+    <body>
+        <label for="num">Introduce un número: </label>
+        <input type="text" name="" id="num" />
+    
+        <button id="genera">Multiplica</button>
+    
+        <div id="multi"></div>
+    
+    <script>
+      let genera = document.getElementById("genera")
+      let numero = document.getElementById("num")
+      let lienzo = document.getElementById("multi")
+    
+      genera.addEventListener("click", () => {
+        for(let i = 1; i<=10; i++) {
+          lienzo.innerHTML += `${numero.value} * ${i} = ${numero.value*i} <br />`
+        }
+      })
+    
+    </script>
+    </body>
+    
+    </html>

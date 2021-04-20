@@ -1,0 +1,39 @@
+h1, h2, h3 {
+    font-weight: bold;
+    color: blue;
+}
+
+#textodefondo {
+    color: yellow;
+    background-color: blue;
+}
+#capa1 {
+    background-color:black;
+    width: 200px;
+    height: 200px;
+}
+#enlaces {
+    background-color: red;
+    
+}
+div#capa1 * {
+border: green 2px solid;
+color: red;
+}
+
+
+li [href$="https"] {
+}
+a {
+    color:green;
+    text-decoration: none;
+}
+
+a.segundo::first-letter {
+    font-size: 50px;
+}
+a.segundo:hover {
+    color: white
+    
+}
+
